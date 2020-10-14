@@ -6,7 +6,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout style={{ color: `purple` }}>
     <SEO title="Home" />
     <h1>WELCOME TO HELL</h1>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
